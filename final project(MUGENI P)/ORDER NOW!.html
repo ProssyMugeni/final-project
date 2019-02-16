@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<title> subscription registration</title>
+                   <style>
+                   ul li{
+                    display:inline;
+                    background-color:white;
+                    }
+                    li a{
+                    text-decoration:italic;
+                    }
+                    ul{
+                    text-align:center;
+                    }
+                    
+                                      body{background-color:#f1f1c1}
+                                      form{margin-left:5%;
+                                      margin-right: 80%;
+                                      background-color: pink}
+                                      button{background-color: blue}
+                                      h2{color:brown;
+                                      text-decoration: underline;
+                                          text-align:center;
+                                      background-color:#f1f1c1;
+                                     border-radius:10px;}   
+              
+               
+ 
+                 </style>
+             
+               
+       </head>
+        <div class="form">
+        <body>
+
+            <!--learn forms-->
+            <h2>E-MAIL SUBSCRIPTION FORM</h2>
+            <form action="send.php"method="POST/GET">
+                   <!--First Name:<br>-->
+                     <input type="text"name="firstname" placeholder="Enter your first name"><br><br>
+                   <!--Last Name:<br>-->
+                     <input type="text"name="lastname" placeholder="Enter your last name"><br><br>
+                   <!--Address:<br>-->
+                     <input type="textArea"name="address" placeholder="Address"><br><br>
+                   Gender:<br>
+                     <input type="radio"name="gender" value="Male"> Male<br>
+                     <input type="radio"name="gender" value="Female"> Female<br>
+                   <!--Email:<br>-->
+                       <input type="text"name="email" placeholder="            email@gmail.com"><br><br>
+                   <!--Contact:<br>-->
+                     <input type"number"name="contact" placeholder="+256"><br><br>
+                   Maritl Status:<br>
+                        <select>
+                           <option>Single</option>
+                           <option>Married</option>
+                           <option>Divorced</option>
+                        </select><br>
+                  Password:<br>
+                        <input type="password"name="password"><br>
+                        <button type="button" name="login">login</button>
+
+</body>
+</html>
